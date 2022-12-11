@@ -3,7 +3,7 @@ import React from 'react';
 const ServiceInfo = ({ card }) => {
     const { name, details } = card;
     return (
-        <div className='card h-5/6 shadow-xl p-6 mt-14 text-center group hover:bg-slate-100'>
+        <div className='card card-compact h-5/6 shadow-xl p-6 mt-14 text-center group hover:bg-slate-100'>
             <figure>
                 {/* <img style={{ width: '60px' }} src={icon} alt="Movie" /> */}
             </figure>

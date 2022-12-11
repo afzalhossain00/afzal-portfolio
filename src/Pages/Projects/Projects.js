@@ -35,9 +35,9 @@ const Projects = () => {
     ]
 
     return (
-        <div className='mt-16'>
+        <section className='mt-16 container mx-auto'>
             <h1 className='text-3xl text-center font-bold text-primary mb-6'>My Projects</h1>
-            <div className='grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mb-6 text-center'>
+            <div className='grid gap-6 grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mb-6 text-center'>
                 {
                     cardData.map(card => <ProjectDetails
                         key={card.id}
@@ -45,7 +45,7 @@ const Projects = () => {
                     ></ProjectDetails>)
                 }
             </div>
-        </div>
+        </section>
     );
 };
 
