@@ -9,6 +9,7 @@ const Navbar = () => {
         <li><Link className='text-lg font-semibold rounded-lg' to='/Skill'>Skill</Link></li>
         <li><Link className='text-lg font-semibold rounded-lg' to='/contact'>Contact</Link></li>
         <li><Link className='text-lg font-semibold rounded-lg' to='/about'>About</Link></li>
+        <li><Link className='text-lg font-semibold rounded-lg' to='/blogs'>Blogs</Link></li>
         <li className='flex justify-center items-center'>
             <a href='https://drive.google.com/file/d/1tddW9kEy0CCEEq7mxXqdtHgin-QBa0AT/view' target='blank' alt='resume' class="btn btn-sm btn-primary text-black rounded-md py-2 font-bold">Resume</a>
         </li>
