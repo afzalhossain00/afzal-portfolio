@@ -15,8 +15,8 @@ const Banner = () => {
                         <p className="py-6 text-xl">I am a professional web developer. I develop websites that are functional and eye catching to users.</p>
 
                         <div className='mb-4 flex'>
-                            <a className='text-4xl text-blue-500 mr-3' href='https://www.linkedin.com/in/afzalhossain00' alt=''><FaLinkedin></FaLinkedin> </a>
-                            <a className='text-4xl text-blue-500' href='https://github.com/afzalhossain00' alt=''><FaGithubSquare></FaGithubSquare> </a>
+                            <a className='text-4xl text-blue-500 mr-3' href='https://www.linkedin.com/in/afzalhossain00' target='blank' alt=''><FaLinkedin></FaLinkedin> </a>
+                            <a className='text-4xl text-blue-500' href='https://github.com/afzalhossain00' target='blank' alt=''><FaGithubSquare></FaGithubSquare> </a>
                         </div>
 
                         <Link to='/contact' alt='resume' class="btn btn-sm btn-primary mr-4 text-black rounded-md py-2 font-bold">Hire me</Link>

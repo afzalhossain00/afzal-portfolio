@@ -26,7 +26,7 @@ const Projects = () => {
         {
             id: 3,
             name: '  Educational Hour',
-            details: "This project contain to booking appointment to getting treatmen. Here also a Dashboard, where the interface divided by admin panel and user panel.",
+            details: "It is an educational course-selling website, which provides some courses. Users can sign up and log in to this website using google and GitHub. Users can see courses, get premium access, and download details.",
             image: EducationalHour,
             live: 'https://educational-hour.web.app',
             github: 'https://github.com/afzalhossain00/educational-hour-client',
